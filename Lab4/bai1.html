@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 3.1</title>
+	<script>
+		// 1. Tạo một mảng (main array/inventory array) lưu trữ một kho các mặt 
+		// hàng (item) của cửa hàng.
+		var inventoryArray = [];
+
+		// 2. Tạo 3 items (gợi ý: sử dụng object), mỗi item có các thuộc tính như 
+		// name, model, cost và quantity.
+		var item1 = {name: "iPhone 12", model: "A2403", cost: 1500, quantity: 10};
+		var item2 = {name: "Samsung Galaxy S21", model: "SM-G991U", cost: 1200, quantity: 8};
+		var item3 = {name: "Google Pixel 6", model: "GK19B", cost: 1000, quantity: 12};
+
+		// 3. Đưa 3 đối tượng này vào một mảng chính (main array/inventory array)
+		// bằng các phương thức mảng (học ở bài 2), sau đó xuất inventory array
+		// bằng console
+		inventoryArray.push(item1, item2, item3);
+		console.log(inventoryArray);
+
+		// 4. Truy xuất quantity element của item thứ 3 bằng console.
+		console.log(item3.quantity);
+
+		// 5. Thêm và truy xuất thêm các elements khác từ main array/inventory 
+		// array
+		var item4 = {name: "Sony Xperia 1 III", model: "XQ-BC72", cost: 1300, quantity: 6};
+		inventoryArray.push(item4);
+		console.log(inventoryArray);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
