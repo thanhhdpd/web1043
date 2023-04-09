@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO BOY</title>
+    <style>
+       .myText {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        body {
+            font-family:'Courier New', Courier, monospace;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(206, 100, 102);
+        }
+        .myText {
+            margin-left: 20px;
+        }
+        .active {
+            display: block !important;
+        }
+        .myText {
+            display: none;
+        }
+        .title {
+            font-size: 1.5em;
+            background-color: #d4b6b6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">HEHE1</div>
+        <div class="myText">HELLO BOY 1</div>
+        <div class="title">HEHE2</div>
+        <div class="myText">HELLO BOY 2</div>
+        <div class="title">HEHE3</div>
+        <div class="myText">HELLO BOY 3</div>
+    </div>
+    <script>
+         const menus = document.querySelectorAll(".title");
+        const openText = document.querySelectorAll(".myText");
+
+        menus.forEach((el) => {
+            el.addEventListener("click", (e) => {
+                remover();
+                el.nextElementSibling.classList.toggle("active");
+            })
+        })
+
+        function remover() {
+            openText.forEach((ele) => {
+                ele.classList.remove("active");
+            })
+        }
+    </script>
+</body>
+</html>

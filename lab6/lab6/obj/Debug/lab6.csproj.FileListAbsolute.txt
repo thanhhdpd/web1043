@@ -1,0 +1,8 @@
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\bin\Debug\lab6.exe.config
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\bin\Debug\lab6.exe
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\bin\Debug\lab6.pdb
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\obj\Debug\lab6.csproj.AssemblyReference.cache
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\obj\Debug\lab6.csproj.SuggestedBindingRedirects.cache
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\obj\Debug\lab6.csproj.CoreCompileInputs.cache
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\obj\Debug\lab6.exe
+C:\Users\phong\OneDrive\Desktop\FPT\C#\Lam_lab\lab6\lab6\obj\Debug\lab6.pdb
