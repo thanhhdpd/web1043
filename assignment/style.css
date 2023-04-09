@@ -1,0 +1,216 @@
+@import url(http://127.0.0.1:3000/index.html);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#wrapper{
+    /*kích thước màn hình là 1280 x 720*/
+    width: 100%;
+    height: 100vh;
+}
+#hearder{
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    list-style: none;
+    display: flex;
+} 
+#menu .item{
+    margin: 0px 25px;
+}
+#menu .item a{
+    color:burlywood;
+    text-decoration: none;
+}
+#actions{
+    display: flex;
+}
+#actions .item{
+    margin-left: 22px;
+}
+#actions .item a{
+    color:burlywood;
+    text-decoration: none;
+}
+#banner{
+    background-image: url(./img/ảnh\ động\ banner.webp);
+    width: 1200px;
+    height: 700px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+}
+#banner .box-left ,#banner .box-right{
+    width: 50%
+}
+#banner .box-left h2{
+    font-size: 48px;
+    margin-top: 75px;
+}
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background-color: rgb(215, 183, 183);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#banner .box-left button:hover{
+    background-color: cornsilk;
+}
+#banner .box-right img{
+    margin: 0px 10px;
+    animation: animation 4s infinite linear;
+}
+#banner .box-right img:nth-child(1){
+animation-delay: 0.5s;
+}
+#banner .box-right img:nth-child(2){
+animation-delay: 1s;
+}
+@keyframes animation{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+.to-bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform:translateX(-50px);
+}
+#wp-products{
+    padding-top: 116px;
+    padding-bottom: 78px;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+#wp-products h2{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+}
+#list-products{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#list-products .item{
+    width: 300px;
+    height: 374px;
+    background: rgba(108, 82, 202, 0.453);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#list-products .item img{
+    display: block;
+    margin: 0px auto;
+    margin-top: 17px;
+}
+#list-products .item .stars{
+    display: flex;
+    margin: 0px auto;
+    width: 50%;
+}
+#list-products .item .name{
+    text-align: center;
+    color:darksalmon;
+    font-weight: bold;
+    margin-top: 21px;
+}
+#list-products .item .desc{
+    text-align: center;
+    color:rgb(175, 111, 89)
+}
+#list-products .item .price{
+    text-align: center;
+    color:rgb(175, 89, 89);
+    font-weight: bold;
+    margin-top: 20px;   
+}
+.list-page{
+    width: 50%;
+    margin: 0px auto;
+}
+.list-page{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.list-page .item{
+    margin: 0px 15px;
+    width: 37px;
+    height: 37px;
+    background:rgb(82, 52, 52);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-page .item a{
+    color:white;
+    text-decoration: none;
+}
+#footer{
+    width: 100%;
+    background:rgb(169, 139, 191);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display:flex;
+    justify-content: space-around;
+}
+#footer .box{
+    width:250px;
+    color:rgb(247, 232, 232);
+}
+#footer .box .quick-nemu{
+    margin-top: 40px;
+}
+#footer .box .quick-nemu .item{
+    margin-bottom: 12px;
+}
+#footer .box .quick-nemu ,.item a{
+    color:rgb(247, 232, 232);
+    text-decoration: none;
+}
+#footer .box form input{
+    width: 294%;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color:rgb(247, 232, 232);
+    margin-top: 30px;
+}
+#footer .box form button{
+    background: black;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color:white;
+
+}
+
